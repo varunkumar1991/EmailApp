@@ -1,0 +1,47 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+:host ::ng-deep .ck-editor__editable_inline {
+  min-height: 500px;
+}
+
+:host ::ng-deep .ck-toolbar{
+padding: 5px;
+position: absolute;
+width: 100%;
+bottom: 0px;
+}
+
+:host ::ng-deep .ck-content h4 {
+  /* box-shadow: 0px 0px 5px grey; */
+  padding: 5px;
+}
+
+:host ::ng-deep .ck-content h4::before{
+  content: 'Sub: ';
+}
+
+:host ::ng-deep .ck-content h3 {
+  /* box-shadow: 0px 0px 5px grey; */
+  padding: 5px;
+}
+
+:host ::ng-deep .ck-content h3::before{
+  content: 'To: ';
+}
+
+
+:host ::ng-deep .ck-content a {
+  background-color: rgb(217, 221, 219);
+  color: rgb(7, 0, 0);
+  padding: 2px;
+  border: 1px solid rgb(47, 47, 48);
+  border-radius: 10px;
+}
